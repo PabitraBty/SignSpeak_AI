@@ -139,3 +139,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .stat-card {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .stat-value {
+    font-size: 1.25rem;
+  }
+  .chart-section, .recent-activity-section {
+    padding: 1rem;
+  }
+}

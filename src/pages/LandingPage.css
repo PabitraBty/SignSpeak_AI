@@ -349,5 +349,50 @@
   }
   .contact-container {
     flex-direction: column;
+    gap: 2rem;
+    padding: 2rem !important;
+  }
+  .hero-section {
+    padding: 4rem 0 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+  .section-header h2 {
+    font-size: 2rem;
+  }
+  .features-section, .how-it-works-section, .team-section, .contact-section {
+    padding: 3rem 0;
+  }
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-actions .btn-primary, .hero-actions .btn-secondary {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .visual-card {
+    border-radius: 16px;
+  }
+  .mockup-body {
+    padding: 1rem;
+  }
+  .contact-container {
+    padding: 1.5rem !important;
   }
 }

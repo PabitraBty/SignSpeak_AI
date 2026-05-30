@@ -99,5 +99,19 @@
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
+    gap: 2rem;
+  }
+  .footer-links {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2.5rem 0 0 0;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 }

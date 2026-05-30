@@ -142,3 +142,12 @@ input:checked + .slider:before {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .settings-card {
+    padding: 1.5rem;
+  }
+  .settings-header {
+    margin-bottom: 1.5rem;
+  }
+}

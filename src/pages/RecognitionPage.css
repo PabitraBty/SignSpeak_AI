@@ -243,4 +243,27 @@
   .history-section {
     grid-column: span 1;
   }
+  .result-display {
+    padding: 1rem;
+    min-height: 200px;
+  }
+  .detected-sign {
+    font-size: 2rem;
+  }
+  .prediction-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .webcam-controls {
+    flex-direction: column;
+  }
+  .recognition-layout {
+    margin-top: 1rem;
+  }
+  .history-list {
+    max-height: 250px;
+  }
 }

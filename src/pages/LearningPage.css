@@ -159,3 +159,15 @@
     height: 120px;
   }
 }
+
+@media (max-width: 480px) {
+  .learning-hero {
+    padding: 1.5rem;
+  }
+  .learning-hero-content h1 {
+    font-size: 2rem;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
